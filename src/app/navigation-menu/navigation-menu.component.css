@@ -1,0 +1,18 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: end;
+    }
+}
+.navbar {
+    
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+button.nav-link.action-btn {
+    background-color: #333333;
+    color: #fff!important;
+    border: 0;
+}
+button.nav-link.action-btn .text-pink{
+    padding-right: 10px;
+}

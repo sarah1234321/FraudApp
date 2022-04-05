@@ -1,1 +1,107 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-inputs/styles/material.css';
+
+.f-100{
+    font-weight: 100;
+}
+.f-400{
+    font-weight: 400;
+}
+.f-500{
+    font-weight: 500;
+}
+.f-800{
+    font-weight: 800;
+}
+.text-pink{
+    color: #E30070;
+}
+.text-light-gray{
+    color: #ECEBEB;
+}
+.text-dark-gray{
+    color: #888888;
+}
+.text-black{
+    color: #333333;
+}
+.text-green{
+    color: #86CE00;
+}
+.bg-pink{
+    background-color: #E30070;
+}
+.bg-light-gray{
+    background-color: #ECEBEB;
+}
+.bg-dark-gray{
+    background-color: #888888;
+}
+.bg-black{
+    background-color: #333333;
+}
+.bg-green{
+    background-color: #86CE00; 
+}
+.text-right {
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.pl-2{
+    padding-left: 5px;
+}
+.pr-2{
+    padding-right: 5px;
+}
+button.white-btn-100 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 10px 5px 10px;
+    box-shadow: 1px 2px 8px #e5e5e5;
+    background-color: #fff;
+}
+button.pink-btn {
+    background-color: transparent;
+    border: 0;
+    font-weight: 600;
+    color: #E30070;
+}
+button.gray-btn {
+    background-color: transparent;
+    border: 0;
+    font-weight: 600;
+    color: #888888;
+}
+.special{
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #888888;
+    border-radius: 0;
+}
+.special:focus {
+    border-bottom: 1px solid #E30070;
+    box-shadow: 0 0 0 0;
+}
+.custom-container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #e5e5e5;
+}
+section.bg-light-gray {
+    min-height: 95vh;
+}
+.custom-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
