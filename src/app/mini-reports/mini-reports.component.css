@@ -1,0 +1,6 @@
+thead.table-dark {
+    --bs-table-bg: #333333;
+}
+th {
+    vertical-align: baseline;
+}

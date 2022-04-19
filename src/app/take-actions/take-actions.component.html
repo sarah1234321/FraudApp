@@ -56,7 +56,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="my-1 custom-container">
-                    <h6 class="text-black f-800">Actions</h6>
+                    <h6 class="text-black f-800">Actions History</h6>
                     <hr>
                     <div class="row">
                         <div class="col-12 col-md-6">
@@ -95,59 +95,43 @@
                             </div>
                         </div>
                     </div>
-                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+            <div class="col-12">
+                <div class="my-1 mb-3 custom-container">
+                    <h6 class="text-black mb-2 f-800">Action</h6>
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label class="f-500">Action</label>
-                                <p class="disabled-text">NOT FRAUD</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="mb-3">
-                                <label class="f-500">Action Date</label>
-                                <p class="disabled-text">26/11/2022</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="mb-3">
-                                <label class="f-500">Action By</label>
-                                <p class="disabled-text">Fraud Team</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="mb-3">
-                                <label class="f-500">Team</label>
-                                <p class="disabled-text">N/A</p>
+                                <select class="form-control special">
+                                    <option selected disabled></option>
+                                    <option value="1">Request More Information</option>
+                                    <option value="2">Fraud</option>
+                                    <option value="3">Not Fraud</option>
+                                </select>
                             </div>
                         </div>
                         <div class="col-12 col-md-12">
                             <div class="mb-3">
-                                <label class="f-500">Comment</label>
-                                <p class="disabled-text">orem Ipsum is simply dummy text of the printing and 
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
-                                    survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-                                    recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <label class="f-500">Comment:<small class="pl-2 text-danger">*</small><small class="pl-2 d-none text-danger">Missing Field</small></label>
+                                <textarea rows="2" type="text" class="special form-control"></textarea>
                             </div>
+                            <div class="mb-3">
+                                <label for="formFileMultiple"class="f-500">Attachments</label>
+                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-right">
+                            <button class="pink-btn">
+                                SEND
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row pb-3">
-            <div class="col-12">
-                <button class="white-btn-100 my-2">
-                    <h6 class="f-500 text-black">View All Active Cases</h6>
-                    <fa-icon class="text-pink" [icon]="faArrowRightLong"></fa-icon>
-                </button>
-                <button class="white-btn-100 my-2">
-                    <h6 class="f-500 text-black">View All Archeived Cases</h6>
-                    <fa-icon class="text-pink" [icon]="faArrowRightLong"></fa-icon>
-                </button>
-            </div>
-            
         </div>
     </div>
 </section>
