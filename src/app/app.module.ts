@@ -1,6 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {PickListModule} from 'primeng/picklist';
+
+
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationMenuComponent } from './navigation-menu/navigation-menu.component';
@@ -14,6 +21,7 @@ import { MiniReportsComponent } from './mini-reports/mini-reports.component';
 import { ClosedRequestsComponent } from './closed-requests/closed-requests.component';
 import { TakeActionsComponent } from './take-actions/take-actions.component';
 import { PendigActionsComponent } from './pendig-actions/pendig-actions.component';
+import { TestHomeComponent } from './test-home/test-home.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +35,15 @@ import { PendigActionsComponent } from './pendig-actions/pendig-actions.componen
     MiniReportsComponent,
     ClosedRequestsComponent,
     TakeActionsComponent,
-    PendigActionsComponent
+    PendigActionsComponent,
+    TestHomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    PickListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
