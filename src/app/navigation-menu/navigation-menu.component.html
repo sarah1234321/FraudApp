@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-expand-lg bg-light">
+<!-- <nav class="navbar navbar-light navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="../../assets/images/logo.svg" alt="" width="35" height="35">
@@ -15,4 +15,75 @@
         </div>
       </div>
     </div>
-  </nav>
+  </nav> -->
+  <div class="mainMenu">
+    <div class="mainLogo">
+      <div class="new-requestBtn">
+        <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" class="nav-link action-btn"><fa-icon class="text-pink" [icon]="faPlus"></fa-icon>New Request</button>
+      
+      </div>
+      <div>
+        <a class="" href="#">
+          <img src="../../assets/images/logo.svg" class="img img-fluid" width="50" alt="">
+      </a>
+      </div>
+       
+        <div class="profile">
+          <div class="btn-group">
+            <button type="button" class="btn name-tag">Hello Amr,</button>
+            <button type="button" class="btn name-btn text-pink dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item" href="#">Home</a></li>
+              <li><a class="dropdown-item" href="#">Pending Requests</a></li>
+              <li><a class="dropdown-item" href="#">Initiated Requests</a></li>
+              <li><a class="dropdown-item" href="#">Closed Requests</a></li>
+              <li><a class="dropdown-item" href="#">My Requests Report</a></li>
+              <li><a class="dropdown-item" href="#">All Reports</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#"><fa-icon class="text-pink" [icon]="faArrowRightFromBracket"></fa-icon>Sign Out</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  
+    <nav class="navbar d-lg-none navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/images/logo.svg" alt="" width="50" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <button  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" class="nav-link action-btn"><fa-icon class="text-pink" [icon]="faPlus"></fa-icon>New Request</button>
+      
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pending Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Initiated Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Archieved Requests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Archieved Requests</a>
+            </li>
+            
+            <li><hr class="dropdown-divider"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><fa-icon class="text-pink" [icon]="faArrowRightFromBracket"></fa-icon>Sign Out</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+</div>

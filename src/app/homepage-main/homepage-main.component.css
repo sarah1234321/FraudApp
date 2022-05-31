@@ -1,0 +1,30 @@
+.homepage-body{
+   background-color: #008A91; 
+}
+.page-title{
+    margin-bottom: 15px;
+}
+.page-title h6{
+    font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
+}
+a.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+a.list-group-item:hover {
+    color: #000;
+    background-color: #eaf6f7;
+}
+a.list-group-item:hover fa-icon.ng-fa-icon.text-pink {
+    margin-right: -5px;
+}
+.text-right{
+    padding-top: 15px;
+}
+.img-fluid.rounded-start{
+    height: 100%;
+}

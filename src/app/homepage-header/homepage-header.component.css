@@ -1,0 +1,71 @@
+.large-header{
+    background: rgb(0,138,145);
+background: linear-gradient(0deg, rgba(0,138,145,1) 0%, rgba(0,138,145,1) 26%, rgba(255,255,255,1) 26%, rgba(255,255,255,1) 100%);
+}
+.large-header .pr-0{
+    padding-right: 0px;
+}
+.large-header .pr-0 img{
+    border-bottom-left-radius: 80px;
+    width: 100%;
+    
+    box-shadow: 4px 4px 2px #306b6e;
+}
+.large-header .welcome-text {
+    margin-block: 60px;
+    margin-inline: 100px;
+}
+.large-header .welcome-text h6{
+    font-weight: 900;
+    color: #008A91;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+.large-header .welcome-text h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: 35px;
+}
+.small-header{
+        background-image: url("../../assets/images/DSC_9114-725x400.jpg"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 300px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+      
+}
+.small-header .container{
+    padding-top: 50px;
+}
+.small-header .welcome-text{
+    background-color: rgba(255,255,255,0.8);
+    padding-block: 50px;
+    padding-inline: 15px;
+}
+.small-header .welcome-text h6{
+    color: #008A91;
+    font-weight: 900;
+}
+.small-header .welcome-text h2{
+    font-weight: 100;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .large-header .welcome-text h6{
+        font-size: 1.2rem;
+    }
+    .large-header .welcome-text h2{
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 992px){
+    .large-header{
+        display: none;
+    }
+}
+@media (min-width: 991px){
+    .small-header{
+        display: none;
+    }
+}
